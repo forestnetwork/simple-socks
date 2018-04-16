@@ -2,9 +2,9 @@
   "name": "simple-socks",
   "version": "0.2.7",
   "description": "proxies requests ",
-  "main": "lib",
+  "main": "examples/createServer.js",
   "scripts": {
-    "start": "node examples/createServer",
+    "start": "node examples/createServer.js",
     "test": "gulp jshint"
   },
   "author": "https://github.com/brozeph",
