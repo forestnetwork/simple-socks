@@ -5,7 +5,7 @@ var
 	server = socks5.createServer();
 
 // start listening!
-server.listen(1080);
+server.listen(process.env.PORT);
 
 server.on('handshake', function (socket) {
 	console.log();
