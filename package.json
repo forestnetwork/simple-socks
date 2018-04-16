@@ -4,7 +4,7 @@
   "description": "proxies requests ",
   "main": "lib",
   "scripts": {
-    "start": "supervisor lib",
+    "start": "node examples/createServer",
     "test": "gulp jshint"
   },
   "author": "https://github.com/brozeph",
